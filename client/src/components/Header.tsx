@@ -26,9 +26,11 @@ export default function Header() {
             <i className="fas fa-dove"></i>
           </div>
           <div>
-            <h1 className="text-xl font-bold text-primary">
-              <span className="font-black">FOCUS</span> Foundation
-            </h1>
+            <div className="text-primary">
+              <h1 className="text-xl font-black">FOCUS</h1>
+              <p className="text-xs font-normal">on the hopeless</p>
+              <p className="text-sm font-bold">FOUNDATION</p>
+            </div>
             <p className="text-sm text-muted-foreground">Est. 2025</p>
           </div>
         </div>
