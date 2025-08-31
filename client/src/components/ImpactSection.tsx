@@ -6,7 +6,7 @@ const testimonials = [
   {
     image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
     quote: "Thanks to Focus on the Hopeless Foundation, I can now attend school and dream of becoming a teacher. Their education program didn't just give me books – it gave me hope for the future.",
-    name: "Maria Santos, Age 12",
+    name: "Audery, Age 16",
     location: "Education Program Beneficiary, Guatemala",
     id: "maria"
   },

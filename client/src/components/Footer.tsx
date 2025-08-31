@@ -73,36 +73,60 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Programs</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href="#"
+                <button
+                  onClick={() => scrollToSection("programs")}
                   className="opacity-80 hover:opacity-100 transition-opacity"
+                  data-testid="footer-link-about"
                 >
-                  Education Access
-                </a>
+                  <a
+                    // href="#"
+                    className="opacity-80 hover:opacity-100 transition-opacity"
+                  >
+                    Education Access
+                  </a>
+                </button>
               </li>
               <li>
-                <a
-                  href="#"
+                <button
+                  onClick={() => scrollToSection("programs")}
                   className="opacity-80 hover:opacity-100 transition-opacity"
+                  data-testid="footer-link-about"
                 >
-                  Community Support
-                </a>
+                  <a
+                    // href="#"
+                    className="opacity-80 hover:opacity-100 transition-opacity"
+                  >
+                    Community Support
+                  </a>
+                </button>
               </li>
               <li>
-                <a
-                  href="#"
+                <button
+                  onClick={() => scrollToSection("programs")}
                   className="opacity-80 hover:opacity-100 transition-opacity"
+                  data-testid="footer-link-about"
                 >
-                  Child Welfare
-                </a>
+                  <a
+                    // href="#"
+                    className="opacity-80 hover:opacity-100 transition-opacity"
+                  >
+                    Child Welfare
+                  </a>
+                </button>
               </li>
               <li>
-                <a
-                  href="#"
+                <button
+                  onClick={() => scrollToSection("programs")}
                   className="opacity-80 hover:opacity-100 transition-opacity"
+                  data-testid="footer-link-about"
                 >
-                  Sustainable Development
-                </a>
+                  <a
+                    // href="#"
+                    className="opacity-80 hover:opacity-100 transition-opacity hover:bg-accent/90"
+                  >
+                    Sustainable Development
+                  </a>
+                </button>
               </li>
             </ul>
           </div>
@@ -153,11 +177,15 @@ export default function Footer() {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t border-primary-foreground/20 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-primary-foreground/20 pt-8 flex flex-col md:flex-row justify-center items-center">
           <p className="text-sm opacity-80 mb-4 md:mb-0">
-            © 2025 Focus on the Hopeless Foundation. All rights reserved.
+            © 2025 Focus on the Hopeless Foundation. All rights reserved.{" "}
+            <span className="text-accent font-semibold">
+              {" "}
+              Spreading hope worldwide.
+            </span>
           </p>
-          <div className="flex space-x-6 text-sm opacity-80">
+          {/* <div className="flex space-x-6 text-sm opacity-80">
             <a href="#" className="hover:opacity-100 transition-opacity">
               Privacy Policy
             </a>
@@ -167,7 +195,7 @@ export default function Footer() {
             <a href="#" className="hover:opacity-100 transition-opacity">
               Contact
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

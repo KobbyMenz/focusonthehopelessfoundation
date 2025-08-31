@@ -66,9 +66,9 @@ export default function ProgramsSection() {
               <p className="text-muted-foreground mb-4">
                 {program.description}
               </p>
-              <button className="text-accent font-semibold hover:underline" data-testid={`link-program-${program.id}`}>
+              {/* <button className="text-accent font-semibold hover:underline" data-testid={`link-program-${program.id}`}>
                 Learn More →
-              </button>
+              </button> */}
             </motion.div>
           ))}
         </div>
