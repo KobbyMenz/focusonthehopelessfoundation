@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(215, 82%, 23%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(215, 82%, 23%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(215, 82%, 23%);
+  --primary: hsl(215, 82%, 23%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(210, 40%, 96%);
+  --secondary-foreground: hsl(215, 82%, 23%);
+  --muted: hsl(210, 40%, 96%);
+  --muted-foreground: hsl(215, 25%, 50%);
+  --accent: hsl(95, 42%, 50%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(214, 32%, 91%);
+  --input: hsl(214, 32%, 91%);
+  --ring: hsl(215, 82%, 23%);
+  --radius: 0.5rem;
+  --font-sans: 'Inter', sans-serif;
+}
+
+.dark {
+  --background: hsl(215, 82%, 23%);
+  --foreground: hsl(0, 0%, 100%);
+  --card: hsl(215, 82%, 18%);
+  --card-foreground: hsl(0, 0%, 100%);
+  --popover: hsl(215, 82%, 18%);
+  --popover-foreground: hsl(0, 0%, 100%);
+  --primary: hsl(0, 0%, 100%);
+  --primary-foreground: hsl(215, 82%, 23%);
+  --secondary: hsl(215, 82%, 18%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(215, 82%, 18%);
+  --muted-foreground: hsl(210, 40%, 70%);
+  --accent: hsl(95, 42%, 50%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(215, 32%, 30%);
+  --input: hsl(215, 32%, 30%);
+  --ring: hsl(0, 0%, 100%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: var(--font-sans);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .world-map-bg {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 500' opacity='0.1'%3E%3Cpath d='M150 200 Q200 150 300 180 T500 200 Q600 220 700 200 Q800 180 850 200' stroke='%23000' fill='none' stroke-width='2'/%3E%3C/svg%3E");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .typewriter {
+    overflow: hidden;
+    border-right: 2px solid hsl(var(--accent));
+    white-space: nowrap;
+  }
+}
+
+@layer utilities {
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  .animate-fly {
+    animation: fly 4s ease-in-out infinite;
+  }
+
+  .animate-typewriter {
+    animation: typewriter 3s steps(40) 1s both;
+  }
+
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 20px rgba(109, 163, 77, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 30px rgba(109, 163, 77, 0.8);
+    }
+  }
+
+  @keyframes fly {
+    0% {
+      transform: translateX(-20px) translateY(5px);
+    }
+    50% {
+      transform: translateX(20px) translateY(-5px);
+    }
+    100% {
+      transform: translateX(-20px) translateY(5px);
+    }
+  }
+
+  @keyframes typewriter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+}
