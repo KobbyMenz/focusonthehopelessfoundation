@@ -27,7 +27,7 @@ export default function Header() {
           </div>
           <div>
             <h1 className="text-xl font-bold text-primary">
-              <span className="font-black">FOCUS</span> on the Hopeless <span className="font-black">FOUNDATION</span>
+              <span className="font-black">FOCUS</span> Foundation
             </h1>
             <p className="text-sm text-muted-foreground">Est. 2025</p>
           </div>
