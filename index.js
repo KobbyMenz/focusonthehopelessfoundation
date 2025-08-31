@@ -29,6 +29,7 @@ var vite_config_default = defineConfig({
       )
     ] : []
   ],
+  base: "https://github.com/KobbyMenz/focusonthehopelessfoundation.git",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
