@@ -31,7 +31,6 @@ export default function Header() {
               <p className="text-xs font-normal">on the hopeless</p>
               <p className="text-sm font-bold">FOUNDATION</p>
             </div>
-            <p className="text-sm text-muted-foreground">Est. 2025</p>
           </div>
         </div>
         
