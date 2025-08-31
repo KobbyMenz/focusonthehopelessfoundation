@@ -72,7 +72,7 @@ export default function GetInvolvedSection() {
           </p>
         </motion.div>
         
-        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto -mt-15">
           {/* Donation Section */}
           <motion.div 
             initial={{ opacity: 0, x: -50 }}

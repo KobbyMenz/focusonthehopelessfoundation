@@ -17,9 +17,9 @@ export default function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-background border-b border-border fixed w-full top-0 z-50"
+      className="bg-background/2 border-b backdrop-blur-xl border-border fixed w-full top-0 z-50"
     >
-      <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <nav className="container mx-auto px-4 py-4 flex items-center justify-between ">
         <div className="flex items-center space-x-3">
           {/* Animated Dove Icon */}
           <div className="text-accent text-3xl animate-fly" data-testid="logo-dove">
@@ -28,8 +28,8 @@ export default function Header() {
           <div>
             <div className="text-primary">
               <h1 className="text-xl font-black">FOCUS</h1>
-              <p className="text-xs font-normal">on the hopeless</p>
-              <p className="text-sm font-bold">FOUNDATION</p>
+              <p className="text-xs font-normal -mt-1.5">on the hopeless</p>
+              <p className="text-sm font-bold -mt-1">FOUNDATION</p>
             </div>
           </div>
         </div>
@@ -37,35 +37,35 @@ export default function Header() {
         <div className="hidden md:flex space-x-8">
           <button 
             onClick={() => scrollToSection('home')} 
-            className="text-muted-foreground hover:text-primary transition-colors"
+            className="text-primary hover:text-accent transition-colors"
             data-testid="nav-home"
           >
             Home
           </button>
           <button 
             onClick={() => scrollToSection('about')} 
-            className="text-muted-foreground hover:text-primary transition-colors"
+            className="text-primary hover:text-accent transition-colors"
             data-testid="nav-about"
           >
             About
           </button>
           <button 
             onClick={() => scrollToSection('programs')} 
-            className="text-muted-foreground hover:text-primary transition-colors"
+            className="text-primary hover:text-accent transition-colors"
             data-testid="nav-programs"
           >
             Programs
           </button>
           <button 
             onClick={() => scrollToSection('impact')} 
-            className="text-muted-foreground hover:text-primary transition-colors"
+            className="text-primary hover:text-accent transition-colors"
             data-testid="nav-impact"
           >
             Impact
           </button>
           <button 
             onClick={() => scrollToSection('contact')} 
-            className="text-muted-foreground hover:text-primary transition-colors"
+            className="text-primary hover:text-accent transition-colors"
             data-testid="nav-contact"
           >
             Contact
