@@ -17,7 +17,7 @@ export default function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-background/2 border-b backdrop-blur-xl border-border fixed w-full top-0 z-50"
+      className="bg-background border-b backdrop-blur-xl border-border fixed w-full top-0 z-50"
     >
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between ">
         <div className="flex items-center space-x-3">
