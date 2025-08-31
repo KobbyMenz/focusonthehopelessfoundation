@@ -117,7 +117,7 @@ export default function GetInvolvedSection() {
                 placeholder="Custom Amount" 
                 value={donationAmount}
                 onChange={(e) => setDonationAmount(e.target.value)}
-                className="w-full p-4 rounded-lg bg-background/20 border border-background/30 placeholder-primary-foreground/70 text-primary-foreground"
+                className="w-full p-4 rounded-lg bg-white/90 border border-background/30 placeholder-gray-500 text-gray-900"
                 data-testid="input-custom-amount"
               />
             </div>
@@ -152,7 +152,7 @@ export default function GetInvolvedSection() {
                   placeholder="Full Name" 
                   value={volunteerForm.name}
                   onChange={(e) => setVolunteerForm(prev => ({ ...prev, name: e.target.value }))}
-                  className="w-full p-4 rounded-lg bg-background/20 border border-background/30 placeholder-primary-foreground/70 text-primary-foreground"
+                  className="w-full p-4 rounded-lg bg-white/90 border border-background/30 placeholder-gray-500 text-gray-900"
                   data-testid="input-volunteer-name"
                 />
               </div>
@@ -162,7 +162,7 @@ export default function GetInvolvedSection() {
                   placeholder="Email Address" 
                   value={volunteerForm.email}
                   onChange={(e) => setVolunteerForm(prev => ({ ...prev, email: e.target.value }))}
-                  className="w-full p-4 rounded-lg bg-background/20 border border-background/30 placeholder-primary-foreground/70 text-primary-foreground"
+                  className="w-full p-4 rounded-lg bg-white/90 border border-background/30 placeholder-gray-500 text-gray-900"
                   data-testid="input-volunteer-email"
                 />
               </div>
@@ -170,7 +170,7 @@ export default function GetInvolvedSection() {
                 <select 
                   value={volunteerForm.interest}
                   onChange={(e) => setVolunteerForm(prev => ({ ...prev, interest: e.target.value }))}
-                  className="w-full p-4 rounded-lg bg-background/20 border border-background/30 text-primary-foreground"
+                  className="w-full p-4 rounded-lg bg-white/90 border border-background/30 text-gray-900"
                   data-testid="select-volunteer-interest"
                 >
                   <option value="">Choose your interest</option>
@@ -186,7 +186,7 @@ export default function GetInvolvedSection() {
                   rows={4}
                   value={volunteerForm.message}
                   onChange={(e) => setVolunteerForm(prev => ({ ...prev, message: e.target.value }))}
-                  className="w-full p-4 rounded-lg bg-background/20 border border-background/30 placeholder-primary-foreground/70 text-primary-foreground resize-none"
+                  className="w-full p-4 rounded-lg bg-white/90 border border-background/30 placeholder-gray-500 text-gray-900 resize-none"
                   data-testid="textarea-volunteer-message"
                 />
               </div>
