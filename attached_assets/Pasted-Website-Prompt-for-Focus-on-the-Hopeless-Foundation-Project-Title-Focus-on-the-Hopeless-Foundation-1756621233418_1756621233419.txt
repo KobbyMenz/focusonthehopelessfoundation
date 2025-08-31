@@ -1,0 +1,49 @@
+Website Prompt for Focus on the Hopeless Foundation
+
+Project Title:
+Focus on the Hopeless Foundation – Official Website
+
+Description:
+Create a modern, fully responsive, and animated website for Focus on the Hopeless Foundation (Est. 2025). The foundation’s mission is to bring hope, fill the world with smiles, and fuel the hope every soul deserves.
+
+Core Requirements:
+	1.	Design & Branding
+	•	Primary colors: Deep Blue (#0C2A6B) and White (#FFFFFF).
+	•	Accent: Olive Green (#6DA34D) (from the olive branch).
+	•	Incorporate the dove with olive branch as a central symbolic icon of peace and hope.
+	•	Use bold typography for emphasis on words like “FOCUS” and “FOUNDATION.”
+	2.	Homepage Sections
+	•	Hero Section:
+	•	Large bold text: “Focus on the Hopeless Foundation” with “Est. 2025.”
+	•	Background: Subtle world map silhouette and smiling children images.
+	•	Animated dove flying in with olive branch.
+	•	Mission Statement:
+	•	Text: “Filling our world with smiles – fueling the hope every soul deserves.”
+	•	Animated fade-in or typewriter effect.
+	•	About Us:
+	•	Short history of the foundation, vision, and goals.
+	•	Programs/Initiatives:
+	•	Cards with hover animations describing key activities (education, community support, child welfare, etc.).
+	•	Impact Stories:
+	•	Testimonial carousel with images of beneficiaries.
+	•	Get Involved:
+	•	Donation button with glowing hover effect.
+	•	Volunteer sign-up form.
+	•	Contact Us:
+	•	Responsive contact form with email and phone icons.
+	•	Footer with social media icons (animated hover effects).
+	3.	Animations & Interactions
+	•	Smooth scrolling.
+	•	Fade-in and slide-up effects on sections.
+	•	Hover effects on buttons and images.
+	•	Animated dove icon in the header (looped flying animation).
+	4.	Technical Requirements
+	•	Responsive for mobile, tablet, and desktop.
+	•	Built with React (Vite) or Next.js.
+	•	Use Framer Motion or GSAP for animations.
+	•	Optimized images for performance.
+	•	SEO-friendly meta tags and structure.
+	5.	Call-to-Action (CTA):
+	•	“Donate Now”
+	•	“Join Us”
+	•	“Contact Us”
